@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Minimalista</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">MinimalStore</a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="catalog.html">Catálogo</a></li>
+                <li><a href="about.html">Sobre</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner">
+            <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Modelo de moda com fundo neutro" style="width:100%; height: 60vh; object-fit: cover;">
+            <div class="banner-text">
+                <h1>Estilo que Inspira</h1>
+                <p>Descubra peças únicas para um guarda-roupa minimalista e elegante.</p>
+                <a href="catalog.html" class="btn">Ver Coleção</a>
+            </div>
+        </section>
+
+        <section class="featured-categories container text-center" style="padding: 60px 20px;">
+            <h2 class="section-title" style="margin-bottom: 40px;">Descubra</h2>
+            <div class="categories-grid" style="display: flex; justify-content: space-around; gap: 20px; flex-wrap: wrap;">
+                <div class="category-item" style="flex-basis: 30%; text-align: center;">
+                    <a href="catalog.html?category=novidades">
+                        <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Novidades" style="width:100%; height: 300px; object-fit: cover; margin-bottom: 15px; border-radius: 4px;">
+                        <h3>Novidades</h3>
+                    </a>
+                </div>
+                <div class="category-item" style="flex-basis: 30%; text-align: center;">
+                    <a href="catalog.html?category=feminino">
+                        <img src="https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Feminino" style="width:100%; height: 300px; object-fit: cover; margin-bottom: 15px; border-radius: 4px;">
+                        <h3>Feminino</h3>
+                    </a>
+                </div>
+                <div class="category-item" style="flex-basis: 30%; text-align: center;">
+                     <a href="catalog.html?category=masculino">
+                        <img src="https://images.unsplash.com/photo-1610384104075-e0378825e0e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Masculino" style="width:100%; height: 300px; object-fit: cover; margin-bottom: 15px; border-radius: 4px;">
+                        <h3>Masculino</h3>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 MinimalStore. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
